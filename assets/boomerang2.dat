@@ -1,0 +1,11 @@
+animation{
+  name = "boomerang",
+  src_image = "hero/boomerang.boomerang2.png",
+  frame_delay = 16,
+  directions = {
+    { x = 0, y = 0, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 32, num_frames = 17 },
+    { x = 0, y = 48, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 32, num_frames = 17 },
+    { x = 0, y = 96, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 32, num_frames = 17 },
+    { x = 0, y = 144, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 32, num_frames = 17 },
+  },
+}

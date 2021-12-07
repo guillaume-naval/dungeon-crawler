@@ -1,0 +1,80 @@
+animation{
+  name = "sword",
+  src_image = "hero/sword.sword6.png",
+  frame_delay = 16,
+  directions = {
+    { x = 0, y = 0, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 40, num_frames = 15 },
+    { x = 0, y = 64, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 40, num_frames = 15 },
+    { x = 0, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 40, num_frames = 15 },
+    { x = 0, y = 192, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 40, num_frames = 15 },
+  },
+}
+animation{
+  name = "spin_attack",
+  src_image = "hero/spin_attack.sword6.png",
+  frame_delay = 16,
+  directions = {
+    { x = 0, y = 0, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 40, num_frames = 33 },
+    { x = 0, y = 64, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 40, num_frames = 33 },
+    { x = 0, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 40, num_frames = 33 },
+    { x = 0, y = 192, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 40, num_frames = 33 },
+  },
+}
+animation{
+  name = "super_spin_attack",
+  src_image = "hero/spin_attack.sword6.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 36, num_frames = 33 },
+    { x = 0, y = 0, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 36, num_frames = 33 },
+    { x = 0, y = 0, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 36, num_frames = 33 },
+    { x = 0, y = 0, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 36, num_frames = 33 },
+  },
+}
+animation{
+  name = "sword_loading_stopped",
+  src_image = "hero/loading.sword6.png",
+  frame_delay = 16,
+  frame_to_loop_on = 80,
+  directions = {
+    { x = 0, y = 0, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 32, num_frames = 88, num_columns = 22 },
+    { x = 0, y = 192, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 32, num_frames = 88, num_columns = 22 },
+    { x = 0, y = 384, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 32, num_frames = 88, num_columns = 22 },
+    { x = 0, y = 576, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 32, num_frames = 88, num_columns = 22 },
+  },
+}
+animation{
+  name = "sword_loading_walking",
+  src_image = "hero/loading.walking.sword6.png",
+  frame_delay = 16,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 32, num_frames = 20 },
+    { x = 0, y = 48, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 32, num_frames = 20 },
+    { x = 0, y = 96, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 32, num_frames = 20 },
+    { x = 0, y = 144, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 32, num_frames = 20 },
+  },
+}
+animation{
+  name = "sword_tapping",
+  src_image = "hero/sword_tapping.sword6.png",
+  frame_delay = 16,
+  frame_to_loop_on = 12,
+  directions = {
+    { x = 0, y = 0, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 36, num_frames = 24 },
+    { x = 0, y = 64, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 36, num_frames = 24 },
+    { x = 0, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 36, num_frames = 24 },
+    { x = 0, y = 192, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 36, num_frames = 24 },
+  },
+}
+animation{
+  name = "victory",
+  src_image = "hero/victory.sword6.png",
+  frame_delay = 16,
+  frame_to_loop_on = 70,
+  directions = {
+    { x = 0, y = 0, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 40, num_frames = 71 },
+    { x = 0, y = 0, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 40, num_frames = 71 },
+    { x = 0, y = 0, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 40, num_frames = 71 },
+    { x = 0, y = 0, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 40, num_frames = 71 },
+  },
+}

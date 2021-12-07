@@ -1,10 +1,6 @@
-kaboom({
-    global : true,
-    scale:1,
-    debug:true,
-})
+import k from '/game.js'
 
-loadSpriteAtlas('/assets/walkingtunic1.png', {
+k.loadSpriteAtlas('/assets/walking.tunic1.png', {
     'link':{
         'x':0,
         'y':0,
@@ -25,8 +21,7 @@ loadSpriteAtlas('/assets/walkingtunic1.png', {
 })
 
 const player = add([
-    sprite("link"),
-    pos(width()*0.5,height()*0.5),
+    sprite("hero"),
 ])
 
-player.play("walk-down")
+player.play("run")
